@@ -1,8 +1,11 @@
 .c9revisions/
 .c9/
 
+express/config.json
 express/node_modules
 
+chat/config.json
 chat/node_modules/
 
+todo/server/config.json
 todo/server/node_modules
