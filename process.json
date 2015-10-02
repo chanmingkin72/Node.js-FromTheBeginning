@@ -1,0 +1,35 @@
+[
+    {
+        "name"        : "demo-express",
+        "script"      : "express.js",
+        "ignoreWatch" : [ ".c9", "client/*" ],
+        "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+        "cwd"         : "/opt/demo",
+        "env":      {
+            "NODE_ENV": "development",
+            "DEBUG":    "app:*"
+        }
+    },
+    {
+        "name"        : "demo-chat",
+        "script"      : "chat.js",
+        "ignoreWatch" : [ ".c9", "client/*" ],
+        "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+        "cwd"         : "/opt/demo",
+        "env":      {
+            "NODE_ENV": "development",
+            "DEBUG":    "app:*"
+        }
+    },
+    {
+        "name"        : "demo-cw",
+        "script"      : "scl.js",
+        "ignoreWatch" : [ ".c9", "client/*" ],
+        "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+        "cwd"         : "/opt/demo",
+        "env":      {
+            "NODE_ENV": "development",
+            "DEBUG":    "app:*"
+        }
+    }
+]
