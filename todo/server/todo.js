@@ -3,13 +3,21 @@ var express     = require('express'),
     
     server      = require('http').createServer( app ).listen( 80 ),
     io          = require('socket.io').listen( server )
+
+    nunjucks    = require("nunjucks"),
     
     debug       = require("debug");
     
-app.use( express.static( './client' ) );
+nunjucks.configure( 'views', {
+    autoescape: true,
+    express: app
+});
+
+app.use( express.static( '../client' ) );
+app.use( express.static( '../../static' ) );
 
 app.get( '/', function( rew, res ) {
-    res.sendFile( "../client/index.html", { root: __dirname } );
+    res.render( "index.html" );
 });
 
 io.on( 'connection', function(socket) {
@@ -24,16 +32,5 @@ io.on( 'connection', function(socket) {
 
     // event for login from socket
     socket.on( "login", login );
-
-    // socket sends message
-    socket.on( "sendMessage", function( msg ) {
-        console.log( "send message", numConn, socket.nickname, msg );
-
-        // broadcast message to all subscribed sockets
-        io.emit( "newMessage", {
-            name:       socket.nickname,
-            msg:        msg
-        } );
-    });
 
 });
