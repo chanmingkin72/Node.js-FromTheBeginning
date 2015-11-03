@@ -7,5 +7,5 @@ express/node_modules
 chat/config.json
 chat/node_modules/
 
-todo/server/config.json
-todo/server/node_modules
+sports/server/config.json
+sports/server/node_modules

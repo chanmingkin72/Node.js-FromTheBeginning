@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.title {
+    text-align: right;
+}
+
+.top {
+    padding-top: 5px;
+    background-color: #EEEEEE;
+    padding-bottom: 5px;
+}
+
+.content {
+    height: 100%;
+}
+
+.navTop{
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    height: 100%;
+}
+
+.menuItem {
+    cursor: pointer;
+    color:  #220000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navTop .selected {
+    background-color: #FFFFFF;
+}

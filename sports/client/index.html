@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>ToDo - web4biz Consulting</title>
+
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+  <!-- Debug -->
+  <script src="/debug.js"></script>
+
+  <!-- socket.io -->
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+
+  <!-- jQuery 2.1.4 -->
+  <script src="/jQuery/jQuery-2.1.4.min.js"></script>
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="/jquery-ui-1.11.4/jquery-ui.min.css">
+  <script src="/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- underscore -->
+  <script type="text/javascript" src="/underscore/underscore-min.js"></script>
+
+  <!-- Angular -->
+  <script src="/angular/angular.min.js"></script>
+
+  <script src="/angular/angular-filter.min.js"></script>
+  <script src="/angular/ui-bootstrap-tpls.min.js"></script>
+
+  <script src="/angular/angular-ui-router.min.js"></script>
+  <script src="/ui-router-extras/ct-ui-router-extras.min.js"></script>
+
+  <link rel="stylesheet" href="/angular/select.min.css">
+  <script src="/angular/select.min.js"></script>
+
+  <!-- Kendo-UI -->
+  <link rel="stylesheet" href="/kendo-ui/styles/kendo.common.min.css">
+  <link rel="stylesheet" href="/kendo-ui/styles/kendo.default.min.css">
+  <script src="/kendo-ui/js/kendo.all.min.js"></script>
+
+  <!-- Moment -->
+  <script src="/moment/moment.min.js"></script>
+
+  <!-- App -->
+  <script src="/app/demo.js"></script>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body class="container-fluid" ng-controller="menuCtrl">
+  
+  <div class="row top">
+    <div class="col-xs-12">
+      <img src="/img/logo.png" />
+    </div>
+  </div>
+  
+  <div class="row content">
+    
+    <div class="col-xs-4 col-md-2 navTop">
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="menuItem" ng-repeat="menuItem in menu" ng-click="openMenu( menuItem )" ng-class="{ selected: menuItem.name == selected.name }">
+          <div>{{ menuItem.title }}</div>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="col-xs-8 col-md-10" ui-view></div>
+  </div>
+</body>
+
+</html>

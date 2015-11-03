@@ -1,0 +1,100 @@
+[15/10/26@14:22:45.539+0100] P-005746 T-3040647040 1 WS -- Logging level set to = 2
+[15/10/26@14:22:45.539+0100] P-005746 T-3040647040 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:22:45.539+0100] P-005746 T-3040647040 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:22:45.539+0100] P-005746 T-3040647040 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:22:45.643+0100] P-005748 T-1040545664 1 WS -- Logging level set to = 2
+[15/10/26@14:22:45.644+0100] P-005748 T-1040545664 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:22:45.644+0100] P-005748 T-1040545664 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:22:45.644+0100] P-005748 T-1040545664 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:22:45.741+0100] P-005750 T-3616036736 1 WS -- Logging level set to = 2
+[15/10/26@14:22:45.741+0100] P-005750 T-3616036736 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:22:45.741+0100] P-005750 T-3616036736 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:22:45.741+0100] P-005750 T-3616036736 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:22:45.847+0100] P-005752 T-681473920 1 WS -- Logging level set to = 2
+[15/10/26@14:22:45.847+0100] P-005752 T-681473920 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:22:45.847+0100] P-005752 T-681473920 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:22:45.847+0100] P-005752 T-681473920 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:22:45.944+0100] P-005754 T-3526862720 1 WS -- Logging level set to = 2
+[15/10/26@14:22:45.944+0100] P-005754 T-3526862720 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:22:45.944+0100] P-005754 T-3526862720 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:22:45.944+0100] P-005754 T-3526862720 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:23:40.315+0100] P-006142 T-2716231552 1 WS -- Logging level set to = 2
+[15/10/26@14:23:40.315+0100] P-006142 T-2716231552 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:23:40.315+0100] P-006142 T-2716231552 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:23:40.315+0100] P-006142 T-2716231552 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:23:40.423+0100] P-006144 T-2325374848 1 WS -- Logging level set to = 2
+[15/10/26@14:23:40.423+0100] P-006144 T-2325374848 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:23:40.423+0100] P-006144 T-2325374848 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:23:40.423+0100] P-006144 T-2325374848 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:23:40.519+0100] P-006146 T-43079552 1 WS -- Logging level set to = 2
+[15/10/26@14:23:40.520+0100] P-006146 T-43079552 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:23:40.520+0100] P-006146 T-43079552 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:23:40.520+0100] P-006146 T-43079552 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:23:40.615+0100] P-006148 T-3505760128 1 WS -- Logging level set to = 2
+[15/10/26@14:23:40.615+0100] P-006148 T-3505760128 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:23:40.615+0100] P-006148 T-3505760128 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:23:40.615+0100] P-006148 T-3505760128 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:23:40.717+0100] P-006150 T-2892117888 1 WS -- Logging level set to = 2
+[15/10/26@14:23:40.717+0100] P-006150 T-2892117888 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:23:40.717+0100] P-006150 T-2892117888 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:23:40.717+0100] P-006150 T-2892117888 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:24:41.144+0100] P-006509 T-568080256 1 WS -- Logging level set to = 2
+[15/10/26@14:24:41.144+0100] P-006509 T-568080256 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:24:41.144+0100] P-006509 T-568080256 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:24:41.144+0100] P-006509 T-568080256 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:24:41.241+0100] P-006511 T-491284352 1 WS -- Logging level set to = 2
+[15/10/26@14:24:41.241+0100] P-006511 T-491284352 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:24:41.241+0100] P-006511 T-491284352 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:24:41.241+0100] P-006511 T-491284352 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:24:41.347+0100] P-006513 T-1238435712 1 WS -- Logging level set to = 2
+[15/10/26@14:24:41.347+0100] P-006513 T-1238435712 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:24:41.347+0100] P-006513 T-1238435712 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:24:41.347+0100] P-006513 T-1238435712 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:24:41.444+0100] P-006515 T-1086912384 1 WS -- Logging level set to = 2
+[15/10/26@14:24:41.444+0100] P-006515 T-1086912384 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:24:41.444+0100] P-006515 T-1086912384 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:24:41.444+0100] P-006515 T-1086912384 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:24:41.550+0100] P-006517 T-1896630144 1 WS -- Logging level set to = 2
+[15/10/26@14:24:41.550+0100] P-006517 T-1896630144 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:24:41.550+0100] P-006517 T-1896630144 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:24:41.550+0100] P-006517 T-1896630144 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:25:09.920+0100] P-006767 T-3912034176 1 WS -- Logging level set to = 2
+[15/10/26@14:25:09.920+0100] P-006767 T-3912034176 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:25:09.920+0100] P-006767 T-3912034176 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:25:09.920+0100] P-006767 T-3912034176 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:25:10.021+0100] P-006769 T-456828800 1 WS -- Logging level set to = 2
+[15/10/26@14:25:10.021+0100] P-006769 T-456828800 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:25:10.021+0100] P-006769 T-456828800 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:25:10.021+0100] P-006769 T-456828800 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:25:10.120+0100] P-006771 T-1258743680 1 WS -- Logging level set to = 2
+[15/10/26@14:25:10.120+0100] P-006771 T-1258743680 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:25:10.120+0100] P-006771 T-1258743680 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:25:10.120+0100] P-006771 T-1258743680 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:25:10.219+0100] P-006773 T-4151093120 1 WS -- Logging level set to = 2
+[15/10/26@14:25:10.219+0100] P-006773 T-4151093120 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:25:10.219+0100] P-006773 T-4151093120 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:25:10.219+0100] P-006773 T-4151093120 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:25:10.317+0100] P-006775 T-3417184128 1 WS -- Logging level set to = 2
+[15/10/26@14:25:10.317+0100] P-006775 T-3417184128 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:25:10.317+0100] P-006775 T-3417184128 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:25:10.317+0100] P-006775 T-3417184128 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:41:14.613+0100] P-011651 T-136193920 1 WS -- Logging level set to = 2
+[15/10/26@14:41:14.613+0100] P-011651 T-136193920 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:41:14.613+0100] P-011651 T-136193920 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:41:14.613+0100] P-011651 T-136193920 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:41:14.719+0100] P-011653 T-3536643968 1 WS -- Logging level set to = 2
+[15/10/26@14:41:14.719+0100] P-011653 T-3536643968 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:41:14.719+0100] P-011653 T-3536643968 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:41:14.719+0100] P-011653 T-3536643968 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:41:14.816+0100] P-011655 T-3594127232 1 WS -- Logging level set to = 2
+[15/10/26@14:41:14.816+0100] P-011655 T-3594127232 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:41:14.816+0100] P-011655 T-3594127232 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:41:14.816+0100] P-011655 T-3594127232 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:41:14.912+0100] P-011657 T-3833878400 1 WS -- Logging level set to = 2
+[15/10/26@14:41:14.912+0100] P-011657 T-3833878400 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:41:14.912+0100] P-011657 T-3833878400 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:41:14.912+0100] P-011657 T-3833878400 1 WS -- There is no server for database /var/opt/sports/sports. (1423)
+[15/10/26@14:41:15.019+0100] P-011659 T-2349541248 1 WS -- Logging level set to = 2
+[15/10/26@14:41:15.019+0100] P-011659 T-2349541248 1 WS -- Log entry types activated: DB.Connects
+[15/10/26@14:41:15.019+0100] P-011659 T-2349541248 1 WS -- WTA server initialising. (8835)
+[15/10/26@14:41:15.019+0100] P-011659 T-2349541248 1 WS -- There is no server for database /var/opt/sports/sports. (1423)

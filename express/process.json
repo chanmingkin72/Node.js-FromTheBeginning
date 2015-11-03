@@ -3,7 +3,7 @@
     "script"      : "express.js",
     "watch"       : true,
     "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-    "cwd"         : "/opt/demo/express",
+    "cwd"         : "/opt/dev/node-demo/express",
     "env":      {
         "NODE_ENV": "development",
         "DEBUG":    "app:*"

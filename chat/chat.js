@@ -1,17 +1,15 @@
-var express     = require('express'),
+var config      = require('./config.json'),
+
+    express     = require('express'),
     app         = express(),
-    
-    server      = require('http').createServer( app ).listen( 80 ),
+
+    server      = require('http').createServer( app ).listen( config.port ),
     io          = require('socket.io').listen( server ),
-    
+
     numConn     = 0;
-    
+
 app.use( express.static( './client' ) );
 app.use( express.static( '../static' ) );
-
-app.get( '/', function( rew, res ) {
-    res.sendFile( "client/index.html", { root: __dirname } );
-});
 
 io.on( 'connection', function(socket) {
 
@@ -34,7 +32,7 @@ io.on( 'connection', function(socket) {
         console.log( "send message", numConn, socket.nickname, msg );
 
         // broadcast message to all subscribed sockets
-        io.emit( "newMessage", {
+        socket.broadcast.emit( "newMessage", {
             name:       socket.nickname,
             msg:        msg
         } );

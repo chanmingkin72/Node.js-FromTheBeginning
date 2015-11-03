@@ -1,0 +1,525 @@
+======================================================================
+[15/10/26@14:22:43.977+0100] P-005714 T-Main   1 --- --- ./rest4node.broker.log opened.
+[15/10/26@14:22:43.977+0100] P-005714 T-Main   1 --- --- Logging level set to = 2
+[15/10/26@14:22:43.977+0100] P-005714 T-Main   1 --- --- Log entry types activated: UBroker.Basic,
+[15/10/26@14:22:43.984+0100] P-005714 T-Main   2 UB Basic      ubroker version: v11.5.0 (06-Dec-2014) (8038)
+[15/10/26@14:22:43.997+0100] P-005714 T-L-12003 2 UB Basic      Started listener thread: L-12003 (8043)
+[15/10/26@14:22:44.021+0100] P-005714 T-L-12003 2 UB Basic      Starting 5 server threads ... (8053)
+[15/10/26@14:22:44.025+0100] P-005714 T-S-0001 2 UB Basic      Started server thread: S-0001. (8101)
+[15/10/26@14:22:44.126+0100] P-005714 T-S-0002 2 UB Basic      Started server thread: S-0002. (8101)
+[15/10/26@14:22:44.226+0100] P-005714 T-S-0003 2 UB Basic      Started server thread: S-0003. (8101)
+[15/10/26@14:22:44.326+0100] P-005714 T-S-0004 2 UB Basic      Started server thread: S-0004. (8101)
+[15/10/26@14:22:44.426+0100] P-005714 T-S-0005 2 UB Basic      Started server thread: S-0005. (8101)
+[15/10/26@14:22:44.530+0100] P-005714 T-S-0001 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 5714 -wtbhostname 5.9.13.168 -wtbport 35854 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 1 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:22:44.629+0100] P-005714 T-S-0002 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 5714 -wtbhostname 5.9.13.168 -wtbport 44951 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 2 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:22:44.729+0100] P-005714 T-S-0003 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 5714 -wtbhostname 5.9.13.168 -wtbport 59222 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 3 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:22:44.829+0100] P-005714 T-S-0004 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 5714 -wtbhostname 5.9.13.168 -wtbport 48864 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 4 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:22:44.929+0100] P-005714 T-S-0005 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 5714 -wtbhostname 5.9.13.168 -wtbport 53835 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 5 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  version= 109
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  rqExt= 0x0
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  rspExt= 0x0
+[15/10/26@14:22:45.539+0100] P-005714 T-S-0001 1 UB -----------  src= 0
+[15/10/26@14:22:45.540+0100] P-005714 T-S-0001 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:22:45.540+0100] P-005714 T-S-0001 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:22:45.540+0100] P-005714 T-S-0001 1 UB -----------  msglen= 0
+[15/10/26@14:22:45.540+0100] P-005714 T-S-0001 1 UB -----------  buflen= 0
+[15/10/26@14:22:45.540+0100] P-005714 T-S-0001 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:22:45.643+0100] P-005714 T-S-0002 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  version= 109
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  rqExt= 0x0
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  rspExt= 0x0
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  src= 0
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:22:45.644+0100] P-005714 T-S-0002 1 UB -----------  msglen= 0
+[15/10/26@14:22:45.645+0100] P-005714 T-S-0002 1 UB -----------  buflen= 0
+[15/10/26@14:22:45.645+0100] P-005714 T-S-0002 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  version= 109
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  rqExt= 0x0
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  rspExt= 0x0
+[15/10/26@14:22:45.741+0100] P-005714 T-S-0003 1 UB -----------  src= 0
+[15/10/26@14:22:45.742+0100] P-005714 T-S-0003 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:22:45.742+0100] P-005714 T-S-0003 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:22:45.742+0100] P-005714 T-S-0003 1 UB -----------  msglen= 0
+[15/10/26@14:22:45.742+0100] P-005714 T-S-0003 1 UB -----------  buflen= 0
+[15/10/26@14:22:45.742+0100] P-005714 T-S-0003 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB -----------  version= 109
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:22:45.847+0100] P-005714 T-S-0004 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  rqExt= 0x0
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  rspExt= 0x0
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  src= 0
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  msglen= 0
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 1 UB -----------  buflen= 0
+[15/10/26@14:22:45.848+0100] P-005714 T-S-0004 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  version= 109
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  rqExt= 0x0
+[15/10/26@14:22:45.944+0100] P-005714 T-S-0005 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 1 UB -----------  rspExt= 0x0
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 1 UB -----------  src= 0
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 1 UB -----------  msglen= 0
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 1 UB -----------  buflen= 0
+[15/10/26@14:22:45.945+0100] P-005714 T-S-0005 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:22:45.949+0100] P-005714 T-L-12003 1 UB ----------- Exception unbinding broker (not bound) : rest4node (8525)
+[15/10/26@14:22:46.950+0100] P-005714 T-Main   2 UB Basic      ubroker v11.5.0 (06-Dec-2014) done. (8041)
+[15/10/26@14:22:46.950+0100] P-005714 T-Main   1 --- --- Log Closed
+======================================================================
+[15/10/26@14:23:38.746+0100] P-006111 T-Main   1 --- --- ./rest4node.broker.log opened.
+[15/10/26@14:23:38.746+0100] P-006111 T-Main   1 --- --- Logging level set to = 2
+[15/10/26@14:23:38.746+0100] P-006111 T-Main   1 --- --- Log entry types activated: UBroker.Basic,
+[15/10/26@14:23:38.752+0100] P-006111 T-Main   2 UB Basic      ubroker version: v11.5.0 (06-Dec-2014) (8038)
+[15/10/26@14:23:38.766+0100] P-006111 T-L-12003 2 UB Basic      Started listener thread: L-12003 (8043)
+[15/10/26@14:23:38.787+0100] P-006111 T-L-12003 2 UB Basic      Starting 5 server threads ... (8053)
+[15/10/26@14:23:38.791+0100] P-006111 T-S-0001 2 UB Basic      Started server thread: S-0001. (8101)
+[15/10/26@14:23:38.892+0100] P-006111 T-S-0002 2 UB Basic      Started server thread: S-0002. (8101)
+[15/10/26@14:23:38.992+0100] P-006111 T-S-0003 2 UB Basic      Started server thread: S-0003. (8101)
+[15/10/26@14:23:39.092+0100] P-006111 T-S-0004 2 UB Basic      Started server thread: S-0004. (8101)
+[15/10/26@14:23:39.192+0100] P-006111 T-S-0005 2 UB Basic      Started server thread: S-0005. (8101)
+[15/10/26@14:23:39.296+0100] P-006111 T-S-0001 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6111 -wtbhostname 5.9.13.168 -wtbport 52772 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 1 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:23:39.397+0100] P-006111 T-S-0002 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6111 -wtbhostname 5.9.13.168 -wtbport 58088 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 2 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:23:39.497+0100] P-006111 T-S-0003 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6111 -wtbhostname 5.9.13.168 -wtbport 45411 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 3 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:23:39.596+0100] P-006111 T-S-0004 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6111 -wtbhostname 5.9.13.168 -wtbport 38826 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 4 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:23:39.697+0100] P-006111 T-S-0005 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6111 -wtbhostname 5.9.13.168 -wtbport 39613 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 5 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:23:40.315+0100] P-006111 T-S-0001 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  version= 109
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  rqExt= 0x0
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  rspExt= 0x0
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  src= 0
+[15/10/26@14:23:40.316+0100] P-006111 T-S-0001 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:23:40.317+0100] P-006111 T-S-0001 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:23:40.317+0100] P-006111 T-S-0001 1 UB -----------  msglen= 0
+[15/10/26@14:23:40.317+0100] P-006111 T-S-0001 1 UB -----------  buflen= 0
+[15/10/26@14:23:40.317+0100] P-006111 T-S-0001 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  version= 109
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  rqExt= 0x0
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  rspExt= 0x0
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  src= 0
+[15/10/26@14:23:40.423+0100] P-006111 T-S-0002 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:23:40.424+0100] P-006111 T-S-0002 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:23:40.424+0100] P-006111 T-S-0002 1 UB -----------  msglen= 0
+[15/10/26@14:23:40.424+0100] P-006111 T-S-0002 1 UB -----------  buflen= 0
+[15/10/26@14:23:40.424+0100] P-006111 T-S-0002 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:23:40.519+0100] P-006111 T-S-0003 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  version= 109
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  rqExt= 0x0
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  rspExt= 0x0
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  src= 0
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:23:40.520+0100] P-006111 T-S-0003 1 UB -----------  msglen= 0
+[15/10/26@14:23:40.521+0100] P-006111 T-S-0003 1 UB -----------  buflen= 0
+[15/10/26@14:23:40.521+0100] P-006111 T-S-0003 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:23:40.615+0100] P-006111 T-S-0004 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:23:40.615+0100] P-006111 T-S-0004 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:23:40.615+0100] P-006111 T-S-0004 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:23:40.615+0100] P-006111 T-S-0004 1 UB -----------  version= 109
+[15/10/26@14:23:40.615+0100] P-006111 T-S-0004 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  rqExt= 0x0
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  rspExt= 0x0
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  src= 0
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  msglen= 0
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 1 UB -----------  buflen= 0
+[15/10/26@14:23:40.616+0100] P-006111 T-S-0004 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:23:40.717+0100] P-006111 T-S-0005 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB -----------  version= 109
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:23:40.718+0100] P-006111 T-S-0005 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  rqExt= 0x0
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  rspExt= 0x0
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  src= 0
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  msglen= 0
+[15/10/26@14:23:40.719+0100] P-006111 T-S-0005 1 UB -----------  buflen= 0
+[15/10/26@14:23:40.720+0100] P-006111 T-S-0005 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:23:40.724+0100] P-006111 T-L-12003 1 UB ----------- Exception unbinding broker (not bound) : rest4node (8525)
+[15/10/26@14:23:41.725+0100] P-006111 T-Main   2 UB Basic      ubroker v11.5.0 (06-Dec-2014) done. (8041)
+[15/10/26@14:23:41.725+0100] P-006111 T-Main   1 --- --- Log Closed
+======================================================================
+[15/10/26@14:24:39.560+0100] P-006478 T-Main   1 --- --- ./rest4node.broker.log opened.
+[15/10/26@14:24:39.561+0100] P-006478 T-Main   1 --- --- Logging level set to = 2
+[15/10/26@14:24:39.561+0100] P-006478 T-Main   1 --- --- Log entry types activated: UBroker.Basic,
+[15/10/26@14:24:39.570+0100] P-006478 T-Main   2 UB Basic      ubroker version: v11.5.0 (06-Dec-2014) (8038)
+[15/10/26@14:24:39.590+0100] P-006478 T-L-12003 2 UB Basic      Started listener thread: L-12003 (8043)
+[15/10/26@14:24:39.611+0100] P-006478 T-L-12003 2 UB Basic      Starting 5 server threads ... (8053)
+[15/10/26@14:24:39.615+0100] P-006478 T-S-0001 2 UB Basic      Started server thread: S-0001. (8101)
+[15/10/26@14:24:39.715+0100] P-006478 T-S-0002 2 UB Basic      Started server thread: S-0002. (8101)
+[15/10/26@14:24:39.816+0100] P-006478 T-S-0003 2 UB Basic      Started server thread: S-0003. (8101)
+[15/10/26@14:24:39.916+0100] P-006478 T-S-0004 2 UB Basic      Started server thread: S-0004. (8101)
+[15/10/26@14:24:40.016+0100] P-006478 T-S-0005 2 UB Basic      Started server thread: S-0005. (8101)
+[15/10/26@14:24:40.127+0100] P-006478 T-S-0001 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6478 -wtbhostname 5.9.13.168 -wtbport 45597 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 1 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:24:40.224+0100] P-006478 T-S-0002 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6478 -wtbhostname 5.9.13.168 -wtbport 49115 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 2 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:24:40.324+0100] P-006478 T-S-0003 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6478 -wtbhostname 5.9.13.168 -wtbport 50329 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 3 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:24:40.424+0100] P-006478 T-S-0004 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6478 -wtbhostname 5.9.13.168 -wtbport 53668 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 4 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:24:40.525+0100] P-006478 T-S-0005 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6478 -wtbhostname 5.9.13.168 -wtbport 51165 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 5 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:24:41.144+0100] P-006478 T-S-0001 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  version= 109
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  rqExt= 0x0
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  rspExt= 0x0
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  src= 0
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:24:41.145+0100] P-006478 T-S-0001 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:24:41.146+0100] P-006478 T-S-0001 1 UB -----------  msglen= 0
+[15/10/26@14:24:41.146+0100] P-006478 T-S-0001 1 UB -----------  buflen= 0
+[15/10/26@14:24:41.146+0100] P-006478 T-S-0001 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:24:41.240+0100] P-006478 T-S-0002 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  version= 109
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  rqExt= 0x0
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  rspExt= 0x0
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  src= 0
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:24:41.241+0100] P-006478 T-S-0002 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:24:41.242+0100] P-006478 T-S-0002 1 UB -----------  msglen= 0
+[15/10/26@14:24:41.242+0100] P-006478 T-S-0002 1 UB -----------  buflen= 0
+[15/10/26@14:24:41.242+0100] P-006478 T-S-0002 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:24:41.347+0100] P-006478 T-S-0003 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:24:41.347+0100] P-006478 T-S-0003 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:24:41.347+0100] P-006478 T-S-0003 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:24:41.347+0100] P-006478 T-S-0003 1 UB -----------  version= 109
+[15/10/26@14:24:41.347+0100] P-006478 T-S-0003 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  rqExt= 0x0
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  rspExt= 0x0
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  src= 0
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  msglen= 0
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 1 UB -----------  buflen= 0
+[15/10/26@14:24:41.348+0100] P-006478 T-S-0003 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  version= 109
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  rqExt= 0x0
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  rspExt= 0x0
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  src= 0
+[15/10/26@14:24:41.444+0100] P-006478 T-S-0004 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:24:41.445+0100] P-006478 T-S-0004 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:24:41.445+0100] P-006478 T-S-0004 1 UB -----------  msglen= 0
+[15/10/26@14:24:41.445+0100] P-006478 T-S-0004 1 UB -----------  buflen= 0
+[15/10/26@14:24:41.445+0100] P-006478 T-S-0004 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:24:41.550+0100] P-006478 T-S-0005 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:24:41.550+0100] P-006478 T-S-0005 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:24:41.550+0100] P-006478 T-S-0005 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:24:41.550+0100] P-006478 T-S-0005 1 UB -----------  version= 109
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  rqExt= 0x0
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  rspExt= 0x0
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  src= 0
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  msglen= 0
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 1 UB -----------  buflen= 0
+[15/10/26@14:24:41.551+0100] P-006478 T-S-0005 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:24:41.556+0100] P-006478 T-L-12003 1 UB ----------- Exception unbinding broker (not bound) : rest4node (8525)
+[15/10/26@14:24:42.557+0100] P-006478 T-Main   2 UB Basic      ubroker v11.5.0 (06-Dec-2014) done. (8041)
+[15/10/26@14:24:42.557+0100] P-006478 T-Main   1 --- --- Log Closed
+======================================================================
+[15/10/26@14:25:08.353+0100] P-006736 T-Main   1 --- --- ./rest4node.broker.log opened.
+[15/10/26@14:25:08.353+0100] P-006736 T-Main   1 --- --- Logging level set to = 2
+[15/10/26@14:25:08.353+0100] P-006736 T-Main   1 --- --- Log entry types activated: UBroker.Basic,
+[15/10/26@14:25:08.359+0100] P-006736 T-Main   2 UB Basic      ubroker version: v11.5.0 (06-Dec-2014) (8038)
+[15/10/26@14:25:08.373+0100] P-006736 T-L-12003 2 UB Basic      Started listener thread: L-12003 (8043)
+[15/10/26@14:25:08.395+0100] P-006736 T-L-12003 2 UB Basic      Starting 5 server threads ... (8053)
+[15/10/26@14:25:08.400+0100] P-006736 T-S-0001 2 UB Basic      Started server thread: S-0001. (8101)
+[15/10/26@14:25:08.500+0100] P-006736 T-S-0002 2 UB Basic      Started server thread: S-0002. (8101)
+[15/10/26@14:25:08.600+0100] P-006736 T-S-0003 2 UB Basic      Started server thread: S-0003. (8101)
+[15/10/26@14:25:08.701+0100] P-006736 T-S-0004 2 UB Basic      Started server thread: S-0004. (8101)
+[15/10/26@14:25:08.801+0100] P-006736 T-S-0005 2 UB Basic      Started server thread: S-0005. (8101)
+[15/10/26@14:25:08.908+0100] P-006736 T-S-0001 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6736 -wtbhostname 5.9.13.168 -wtbport 38298 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 1 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:25:09.006+0100] P-006736 T-S-0002 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6736 -wtbhostname 5.9.13.168 -wtbport 57458 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 2 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:25:09.106+0100] P-006736 T-S-0003 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6736 -wtbhostname 5.9.13.168 -wtbport 56021 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 3 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:25:09.206+0100] P-006736 T-S-0004 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6736 -wtbhostname 5.9.13.168 -wtbport 38821 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 4 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:25:09.306+0100] P-006736 T-S-0005 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 6736 -wtbhostname 5.9.13.168 -wtbport 39901 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 5 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:25:09.920+0100] P-006736 T-S-0001 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:25:09.920+0100] P-006736 T-S-0001 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:25:09.920+0100] P-006736 T-S-0001 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:25:09.920+0100] P-006736 T-S-0001 1 UB -----------  version= 109
+[15/10/26@14:25:09.920+0100] P-006736 T-S-0001 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:25:09.920+0100] P-006736 T-S-0001 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  rqExt= 0x0
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  rspExt= 0x0
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  src= 0
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  msglen= 0
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 1 UB -----------  buflen= 0
+[15/10/26@14:25:09.921+0100] P-006736 T-S-0001 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:25:10.021+0100] P-006736 T-S-0002 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB -----------  version= 109
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:25:10.022+0100] P-006736 T-S-0002 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  rqExt= 0x0
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  rspExt= 0x0
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  src= 0
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  msglen= 0
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 1 UB -----------  buflen= 0
+[15/10/26@14:25:10.023+0100] P-006736 T-S-0002 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:25:10.120+0100] P-006736 T-S-0003 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:25:10.120+0100] P-006736 T-S-0003 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  version= 109
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  rqExt= 0x0
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  rspExt= 0x0
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  src= 0
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  msglen= 0
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 1 UB -----------  buflen= 0
+[15/10/26@14:25:10.121+0100] P-006736 T-S-0003 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  version= 109
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  rqExt= 0x0
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  rspExt= 0x0
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  src= 0
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:25:10.219+0100] P-006736 T-S-0004 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:25:10.220+0100] P-006736 T-S-0004 1 UB -----------  msglen= 0
+[15/10/26@14:25:10.220+0100] P-006736 T-S-0004 1 UB -----------  buflen= 0
+[15/10/26@14:25:10.220+0100] P-006736 T-S-0004 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:25:10.317+0100] P-006736 T-S-0005 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:25:10.317+0100] P-006736 T-S-0005 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:25:10.317+0100] P-006736 T-S-0005 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  version= 109
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  rqExt= 0x0
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  rspExt= 0x0
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  src= 0
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:25:10.318+0100] P-006736 T-S-0005 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:25:10.319+0100] P-006736 T-S-0005 1 UB -----------  msglen= 0
+[15/10/26@14:25:10.319+0100] P-006736 T-S-0005 1 UB -----------  buflen= 0
+[15/10/26@14:25:10.319+0100] P-006736 T-S-0005 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:25:10.324+0100] P-006736 T-L-12003 1 UB ----------- Exception unbinding broker (not bound) : rest4node (8525)
+[15/10/26@14:25:11.324+0100] P-006736 T-Main   2 UB Basic      ubroker v11.5.0 (06-Dec-2014) done. (8041)
+[15/10/26@14:25:11.324+0100] P-006736 T-Main   1 --- --- Log Closed
+======================================================================
+[15/10/26@14:41:13.039+0100] P-011618 T-Main   1 --- --- ./rest4node.broker.log opened.
+[15/10/26@14:41:13.039+0100] P-011618 T-Main   1 --- --- Logging level set to = 2
+[15/10/26@14:41:13.039+0100] P-011618 T-Main   1 --- --- Log entry types activated: UBroker.Basic,
+[15/10/26@14:41:13.045+0100] P-011618 T-Main   2 UB Basic      ubroker version: v11.5.0 (06-Dec-2014) (8038)
+[15/10/26@14:41:13.058+0100] P-011618 T-L-12003 2 UB Basic      Started listener thread: L-12003 (8043)
+[15/10/26@14:41:13.085+0100] P-011618 T-L-12003 2 UB Basic      Starting 5 server threads ... (8053)
+[15/10/26@14:41:13.090+0100] P-011618 T-S-0001 2 UB Basic      Started server thread: S-0001. (8101)
+[15/10/26@14:41:13.191+0100] P-011618 T-S-0002 2 UB Basic      Started server thread: S-0002. (8101)
+[15/10/26@14:41:13.291+0100] P-011618 T-S-0003 2 UB Basic      Started server thread: S-0003. (8101)
+[15/10/26@14:41:13.392+0100] P-011618 T-S-0004 2 UB Basic      Started server thread: S-0004. (8101)
+[15/10/26@14:41:13.492+0100] P-011618 T-S-0005 2 UB Basic      Started server thread: S-0005. (8101)
+[15/10/26@14:41:13.601+0100] P-011618 T-S-0001 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 11618 -wtbhostname 5.9.13.168 -wtbport 59801 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 1 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:41:13.700+0100] P-011618 T-S-0002 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 11618 -wtbhostname 5.9.13.168 -wtbport 50191 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 2 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:41:13.800+0100] P-011618 T-S-0003 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 11618 -wtbhostname 5.9.13.168 -wtbport 46830 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 3 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:41:13.900+0100] P-011618 T-S-0004 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 11618 -wtbhostname 5.9.13.168 -wtbport 35385 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 4 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:41:14.000+0100] P-011618 T-S-0005 2 UB Basic      Started server: /usr/dlc/bin/_progres -web -logginglevel 2 -logfile ./rest4node.server.log -ubpid 11618 -wtbhostname 5.9.13.168 -wtbport 47798 -wtaminport 3202 -wtamaxport 3502 -wtbname rest4node -wtainstance 5 -ubpropfile /usr/dlc/properties/ubroker.properties -logname rest4node -logthreshold 0 -numlogfiles 3 -logentrytypes DB.Connects -ipver IPv4 -p web/objects/web-disp.p -weblogerror -pf /opt/wrk/node4rest.pf -T /tmp -rereadnolock (8108)
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB -----------  version= 109
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:41:14.613+0100] P-011618 T-S-0001 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  rqExt= 0x0
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  rspExt= 0x0
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  src= 0
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  msglen= 0
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 1 UB -----------  buflen= 0
+[15/10/26@14:41:14.614+0100] P-011618 T-S-0001 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB -----------  version= 109
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:41:14.719+0100] P-011618 T-S-0002 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  rqExt= 0x0
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  rspExt= 0x0
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  src= 0
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  msglen= 0
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 1 UB -----------  buflen= 0
+[15/10/26@14:41:14.720+0100] P-011618 T-S-0002 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:41:14.815+0100] P-011618 T-S-0003 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  version= 109
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  rqExt= 0x0
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  rspExt= 0x0
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  src= 0
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:41:14.816+0100] P-011618 T-S-0003 1 UB -----------  msglen= 0
+[15/10/26@14:41:14.817+0100] P-011618 T-S-0003 1 UB -----------  buflen= 0
+[15/10/26@14:41:14.817+0100] P-011618 T-S-0003 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:41:14.912+0100] P-011618 T-S-0004 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:41:14.912+0100] P-011618 T-S-0004 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  version= 109
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  rqExt= 0x0
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  rspExt= 0x0
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  src= 0
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  msglen= 0
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 1 UB -----------  buflen= 0
+[15/10/26@14:41:14.913+0100] P-011618 T-S-0004 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB ----------- ServerSocketsIPC read() IOException : java.io.EOFException :  NULL (8127)
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB ----------- ServerIPCException in getServerIPCMsg() : ServerIPC error: ubServerSocketsIPC.read() IOException: null. (8119)
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB ----------- Unexpected msg from server :
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  version= 109
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  type= 1 UBTYPE_ADMIN
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  src= 0 DEFAULT_UBSRC
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  rq= 0x1 UBRQ_ADMIN
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  tlvBuflen= 0x0
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  rqExt= 0x0
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  rsp= 0x0 UBRSP_OK
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  rspExt= 0x0
+[15/10/26@14:41:15.019+0100] P-011618 T-S-0005 1 UB -----------  src= 0
+[15/10/26@14:41:15.020+0100] P-011618 T-S-0005 1 UB -----------  adRq= 4 ADRQ_SERVER_TERMINATE
+[15/10/26@14:41:15.020+0100] P-011618 T-S-0005 1 UB -----------  rsp= 0 ADRSP_OK
+[15/10/26@14:41:15.020+0100] P-011618 T-S-0005 1 UB -----------  msglen= 0
+[15/10/26@14:41:15.020+0100] P-011618 T-S-0005 1 UB -----------  buflen= 0
+[15/10/26@14:41:15.020+0100] P-011618 T-S-0005 2 UB Basic      ERROR: cannot start server. (8100)
+[15/10/26@14:41:15.025+0100] P-011618 T-L-12003 1 UB ----------- Exception unbinding broker (not bound) : rest4node (8525)
+[15/10/26@14:41:16.026+0100] P-011618 T-Main   2 UB Basic      ubroker v11.5.0 (06-Dec-2014) done. (8041)
+[15/10/26@14:41:16.026+0100] P-011618 T-Main   1 --- --- Log Closed

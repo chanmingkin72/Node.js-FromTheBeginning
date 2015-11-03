@@ -11,8 +11,7 @@ $(window).load( function() {
 
     socket.on( "newMessage", function( data ) {
         console.log( "got", data );
-        $("#main").append( "<div class='row-fluid'><div class='span12'><span class='label'>" + data.name + "</span>" + data.msg + "</div></div>" );
-        $("#main").scrollTop( $("#main")[0].scrollHeight );
+        $("#main").prepend( "<tr><th scope='row'>" + data.name + "</th><td>" + data.msg + "</td></tr>" );
     });
 
     $("#connect").click( function() {
@@ -23,9 +22,13 @@ $(window).load( function() {
     });
 
     $("#send").click( function() {
+        var msg     = $("#message").val(),
+            name    = $("#nickname").val();
+            
+        console.log( "send", name, msg );
+        $("#main").prepend( "<tr><th scope='row'>" + name + "</th><td>" + msg + "</td></tr>" );
 
-        console.log( "send", $("#message").val() );
-        socket.emit( "sendMessage", $("#message").val() );
+        socket.emit( "sendMessage", msg );
         $("#message").val( "" );
 
     });
