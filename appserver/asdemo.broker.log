@@ -74,3 +74,6 @@
 [15/10/30@19:44:41.247+0100] P-011259 T-serverWatchdog 2 UB Basic      Shutdown requested: S-0002 ... (8051)
 [15/10/30@19:44:41.248+0100] P-011259 T-serverWatchdog 2 UB Basic      Shutdown requested: S-0003 ... (8051)
 [15/10/30@19:44:41.250+0100] P-011259 T-serverWatchdog 2 UB Basic      Shutdown requested: S-0004 ... (8051)
+[15/11/04@11:21:23.922+0100] P-011259 T-C-0001 2 UB Basic      ConnectionID= 5.9.13.168::asdemo::20000::c11c0bc614d2799b:-64c22164:150b9f56872:-6fc0. (8096)
+[15/11/04@11:21:23.923+0100] P-011259 T-C-0001 2 UB Basic      Client connected : 89.248.171.137. (8533)
+[15/11/04@11:21:23.983+0100] P-011259 T-C-0001 2 UB Basic      Client disconnected : 89.248.171.137. (8534)

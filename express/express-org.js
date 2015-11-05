@@ -19,16 +19,20 @@ app.use( function( req, res, next ) {
     console.log("way back");
 });
 
-app.get( "/rest/:table", auth, function( req, res ) {
+app.get( "/rest/:table", function( req, res ) {
     res.send( "Request: " + req.params.table );
 });
-app.get( "/rest/:table/:id", auth, function( req, res ) {
+app.get( "/rest/:table/:id", function( req, res ) {
     res.send( req.params );
 });
 
 app.get( "/", function( req, res ) {
     console.log( "req" );
     res.send( "Hello World" );
+});
+
+app.get( "*", function( req, res ) {
+    res.status( 503 ).send( "Nope!" );
 });
 
 app.listen( config.port );

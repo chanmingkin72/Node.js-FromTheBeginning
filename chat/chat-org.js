@@ -11,9 +11,12 @@ var config      = require('./config.json'),
 app.use( express.static( './client' ) );
 app.use( express.static( '../static' ) );
 
-app.get( '/', function( rew, res ) {
-    res.sendFile( "client/index.html", { root: __dirname } );
-});
+// io.on( 'connection', function(socket) {
+
+//     numConn     += 1;
+//     console.log( "connected", numConn );
+
+// });
 
 io.on( 'connection', function(socket) {
 
@@ -36,7 +39,7 @@ io.on( 'connection', function(socket) {
         console.log( "send message", numConn, socket.nickname, msg );
 
         // broadcast message to all subscribed sockets
-        io.emit( "newMessage", {
+        socket.broadcast.emit( "newMessage", {
             name:       socket.nickname,
             msg:        msg
         } );

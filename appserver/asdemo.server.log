@@ -56,3 +56,6 @@
 [15/10/30@19:44:41.250+0100] P-011294 T-35309440 2 AS AS Application Server Shutdown. (5476)
 [15/10/30@19:44:41.251+0100] P-011296 T-3704612736 2 AS AS Shutdown request received. (5465)
 [15/10/30@19:44:41.251+0100] P-011296 T-3704612736 2 AS AS Application Server Shutdown. (5476)
+[15/11/04@18:22:06.965+0100] P-011298 T-3943630720 1 AS -- PROGRESS AppServer network protocol mismatch. (5565)
+[15/11/04@18:22:07.169+0100] P-011298 T-3943630720 1 AS -- PROGRESS AppServer network protocol mismatch. (5565)
+[15/11/04@18:22:07.378+0100] P-011298 T-3943630720 1 AS -- PROGRESS AppServer network protocol mismatch. (5565)

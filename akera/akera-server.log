@@ -197,3 +197,12 @@ Tuesday, November 03, 2015 15:26:24 - warn: Input stream closed.
 Tuesday, November 03, 2015 15:26:24 - warn: AGT[22933] Web source path not defined [16]
 Tuesday, November 03, 2015 15:26:24 - info: AGT[22933] Agent started(33071) [201]
 Tuesday, November 03, 2015 20:16:51 - info: AGT[19512] Client request(Read complete: 1 of 0) [211]
+Tuesday, November 03, 2015 21:16:24 - info: Start new agent, less than minimum (trim).
+Tuesday, November 03, 2015 21:16:24 - info: AGT[19512] Agent stoped(53573) [203]
+Tuesday, November 03, 2015 21:16:24 - warn: Input stream closed.
+Tuesday, November 03, 2015 21:16:24 - warn: Input stream closed.
+Tuesday, November 03, 2015 21:16:24 - warn: AGT[1354] Web source path not defined [16]
+Tuesday, November 03, 2015 21:16:25 - info: AGT[1354] Agent started(60251) [201]
+Tuesday, November 03, 2015 22:33:53 - info: AGT[22933] Client request(Read complete: 1 of 0) [21
+Tuesday, November 03, 2015 22:42:51 - warn: Input stream closed.
+Tuesday, November 03, 2015 22:42:51 - warn: AGT[22933] Client API connection disconnected without being closed.

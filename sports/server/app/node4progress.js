@@ -12,7 +12,7 @@ module.exports	= {
         n4p.setParameter( "dsCustomer", "dataset-handle", "output", "", "" );
         n4p.setParameter( "ErrMsg", "character", "output", "", "" );
 
-        n4p.invoke( function( err, result ) {
+        n4p.appProc().execute( function( err, result ) {
             console.log( "n4p", err, result );
             callback( err, result );
         });
