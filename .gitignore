@@ -1,11 +1,26 @@
 .c9revisions/
 .c9/
 
+akera/*.log
+akera/sports.json
+
+appserver/*.log
+rest/*.log
+
 express/config.json
+express/process.json
 express/node_modules
 
 chat/config.json
+chat/process.json
 chat/node_modules/
 
 sports/server/config.json
+sports/server/process.json
 sports/server/node_modules
+
+koa/config.json
+koa/node_modules
+
+sports/*
+

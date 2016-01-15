@@ -8,7 +8,8 @@
   },
   "homepage": "http://www.web4biz.eu",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "serve-favicon": "^2.3.0"
   },
   "optionalDependencies": {},
   "engines": {

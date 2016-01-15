@@ -1,0 +1,11 @@
+{
+    "name"        : "demo-koa",
+    "script"      : "koa.js",
+    "watch"       : true,
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+    "cwd"         : "/opt/dev/node-demo/koa",
+    "env":      {
+        "NODE_ENV": "development",
+        "DEBUG":    "app:*"
+    }
+}
