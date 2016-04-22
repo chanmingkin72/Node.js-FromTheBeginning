@@ -1,11 +1,11 @@
 const conf      = require('./config.json'),
       Koa       = require('koa'),
       app       = new Koa(),
-      
+      favicon   = require('koa-favicon'),
       rest      = require('./lib/restHandler.js')(),
       co        = require('co');
 
-app.use( rest );
+app.use( favicon( __dirname + '/public/favicon.ico') );
 
 app.use( co.wrap( function *( ctx, next ) {
     var start   = new Date;
@@ -27,12 +27,24 @@ app.use( ( ctx, next ) => {
     });
 });
 
-app.use( ctx => {
-    process.nextTick( function() {
-        console.log( 'req' );
-        ctx.body = 'Hello World';
-    });
-});
+app.use( auth );
+app.use( rest );
 
 app.listen( conf.port );
 console.log( 'koa listening' );
+
+// auth
+function auth( ctx, next ) {
+
+    // check for user
+    if (!ctx.query.user) {
+        console.log( "Not a valid user" );
+        ctx.status  = 500;
+        ctx.body    = "Not a valid user";
+        return;
+    }
+
+    // valid user
+    console.log( "Valid user" );
+    return next();
+}

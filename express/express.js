@@ -10,9 +10,9 @@ app.use( favicon( __dirname + '/public/favicon.ico' ) );
 app.use( function( req, res, next ) {
     var start   = new Date;
     console.log( "way down", req.url );
-    
+
     next();
-    
+
     console.log( 'way back' );
     console.log( 'Response-Time', new Date - start );
 });

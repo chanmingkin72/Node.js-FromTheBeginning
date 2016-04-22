@@ -9,7 +9,7 @@ const conf      = require('../config.json'),
 
 module.exports  = function() {
     var router    = new Router({
-            prefix:   "/data"
+            prefix:   "/rest"
         });
 
     // get data from database
@@ -24,11 +24,13 @@ module.exports  = function() {
     }));
     
     router.get( "/:table/:id", co.wrap( function *( ctx, next ) {
+        console.log( "get", ctx.params.table, ',id', ctx.params.id );
         let data    = yield mongo.find( {
             coll:   ctx.params.table,
-            where:  { _id: ctx.params.id } 
+            where:  { _id: ctx.params.id }
         } );
-        ctx.body    = data;
+        ctx.status  = 200;
+        ctx.body    = data && data[0];
     }));
 
     router.post( "/:table/:id", co.wrap( function *( ctx, next ) {

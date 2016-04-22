@@ -37,13 +37,6 @@ Data.prototype.create     = function *( elm ) {
     return data;
 };
 
-// Data.prototype.findOne  = function *( elm ) {
-//     log( 'findOne', elm );
-//     let db      = yield connect();
-//     let data    = yield findOne( db, elm );
-//     return data;
-// };
-
 // connect to mongo
 function connect (conf) {
     return new Promise( function( resolve, reject ) {
@@ -67,8 +60,8 @@ function find( db, elm ) {
         
         // get collection
         let coll    = db.collection( elm.coll );
-        
-        // find 
+
+        // find
         coll
             .find( elm.where )
             .toArray( function( err, data ) {
