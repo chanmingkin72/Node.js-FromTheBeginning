@@ -23,15 +23,10 @@ router.get( "/:table", function( req, res ) {
     res.send( "Request: " + req.params.table );
 });
 router.get( "/:table/:id", function( req, res ) {
-    res.send( req.params );
-});
-
-
-app.get( "/rest/:table", auth, function( req, res ) {
-    res.send( "Request: " + req.params.table );
-});
-app.get( "/rest/:table/:id", auth, function( req, res ) {
-    res.send( req.params );
+    process.nextTick( function() {
+        console.log( "req", req.params );
+        res.send( req.params );
+    });
 });
 
 app.get( "/", function( req, res ) {
@@ -54,10 +49,12 @@ function auth( req, res, next ) {
     
     // check for user
     if (!req.query.user) {
-        console.log( "No valid user" );
-        res.status( 404 ).send( "No valid user" );
+        console.log( "Not a valid user" );
+        res.status( 500 ).send( "Not a valid user" );
         return;
     }
-        
+
+    // valid user
+    console.log( "Valid user" );
     next();
 }

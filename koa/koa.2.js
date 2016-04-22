@@ -12,10 +12,10 @@ router.get( '/', function( ctx, next ) {
     console.log( 'router' );
 });
 
-router.get( "/:table", function( ctx, next ) {
+router.get( "/:table", function( ctx ) {
     ctx.body    = "Request: " + ctx.params.table;
 });
-router.get( "/:table/:id", function( ctx, next ) {
+router.get( "/:table/:id", function( ctx ) {
     ctx.body    = ctx.params;
 });
 
