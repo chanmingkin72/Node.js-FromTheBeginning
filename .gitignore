@@ -3,8 +3,10 @@
 
 akera/*.log
 akera/sports.json
+akera/akera.lic
 
 appserver/*.log
+
 rest/*.log
 
 express/config.json
@@ -20,7 +22,6 @@ sports/server/process.json
 sports/server/node_modules
 
 koa/config.json
+koa/process.json
 koa/node_modules
-
-sports/*
 

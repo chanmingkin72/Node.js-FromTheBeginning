@@ -87,3 +87,49 @@
 [15/11/10@16:08:24.527+0100] P-008756 T-1713321792 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
 [15/11/10@16:22:04.195+0100] P-013020 T-4167116608 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
 [15/11/11@15:10:51.985+0100] P-030984 T-2551363392 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/16@23:20:46.940+0200] P-013234 T-334235456 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/16@23:22:20.036+0200] P-013234 T-334235456 1 CGI  ------- Logging level set to = 1
+[16/06/16@23:22:20.036+0200] P-013234 T-334235456 1 NS   NS-RQ   Name Server at Host 127.0.0.1 Port 5162 is not responding. (8239)
+[16/06/16@23:22:20.037+0200] P-013234 T-334235456 1 OCTO OCT-INT Msngr: the specified service name does not exist or has a bad format. (5825): rest4node
+[16/06/16@23:23:23.628+0200] P-000978 T-1059014464 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/16@23:24:56.675+0200] P-000978 T-1059014464 1 CGI  ------- Logging level set to = 1
+[16/06/16@23:24:56.675+0200] P-000978 T-1059014464 1 NS   NS-RQ   Name Server at Host 127.0.0.1 Port 5162 is not responding. (8239)
+[16/06/16@23:24:56.678+0200] P-000978 T-1059014464 1 OCTO OCT-INT Msngr: the specified service name does not exist or has a bad format. (5825): rest4node
+[16/06/16@23:47:45.203+0200] P-030246 T-1487689536 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/16@23:49:18.265+0200] P-030246 T-1487689536 1 CGI  ------- Logging level set to = 1
+[16/06/16@23:49:18.265+0200] P-030246 T-1487689536 1 NS   NS-RQ   Name Server at Host 127.0.0.1 Port 5162 is not responding. (8239)
+[16/06/16@23:49:18.266+0200] P-030246 T-1487689536 1 OCTO OCT-INT Msngr: the specified service name does not exist or has a bad format. (5825): rest4node
+[16/06/20@17:00:30.664+0200] P-026320 T-1126328128 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/20@17:00:43.762+0200] P-026415 T-884741952 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/20@17:02:03.703+0200] P-026320 T-1126328128 1 CGI  ------- Logging level set to = 1
+[16/06/20@17:02:03.703+0200] P-026320 T-1126328128 1 NS   NS-RQ   Name Server at Host 127.0.0.1 Port 5162 is not responding. (8239)
+[16/06/20@17:02:03.707+0200] P-026320 T-1126328128 1 OCTO OCT-INT Msngr: the specified service name does not exist or has a bad format. (5825): rest4node
+[16/06/20@17:02:16.850+0200] P-026415 T-884741952 1 CGI  ------- Logging level set to = 1
+[16/06/20@17:02:16.850+0200] P-026415 T-884741952 1 NS   NS-RQ   Name Server at Host 127.0.0.1 Port 5162 is not responding. (8239)
+[16/06/20@17:02:16.853+0200] P-026415 T-884741952 1 OCTO OCT-INT Msngr: the specified service name does not exist or has a bad format. (5825): rest4node
+[16/06/22@17:37:25.583+0200] P-025315 T-3986138944 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@17:46:00.085+0200] P-012500 T-4001298240 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@17:46:45.171+0200] P-023701 T-2005329728 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@17:46:55.610+0200] P-026527 T-1910003520 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@17:48:58.363+0200] P-024085 T-407934784 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@18:17:58.371+0200] P-007317 T-723158848 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@18:36:48.680+0200] P-014437 T-17090368 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@18:37:25.175+0200] P-014662 T-2707081024 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@18:38:25.541+0200] P-015104 T-1731921728 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@19:20:11.146+0200] P-029912 T-1620600640 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:10:43.095+0200] P-016527 T-2232354624 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:11:47.443+0200] P-017184 T-3910588224 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:44:28.291+0200] P-029221 T-3542935360 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:45:25.615+0200] P-029620 T-249009984 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:46:14.037+0200] P-030012 T-4060428096 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:46:15.324+0200] P-030014 T-541554496 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:47:17.610+0200] P-030408 T-942856000 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:48:37.158+0200] P-030942 T-3385558848 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:49:04.815+0200] P-031039 T-2663692096 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@20:52:42.322+0200] P-032686 T-4149196608 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@22:40:08.407+0200] P-006622 T-4106463040 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@23:24:42.089+0200] P-022873 T-3244103488 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/22@23:24:44.114+0200] P-022873 T-3244103488 1 CGI  ------- Logging level set to = 1
+[16/06/22@23:24:44.114+0200] P-022873 T-3244103488 1 OCTO OCT-INT Msngr: the specified service name does not exist or has a bad format. (5825): rest4node
+[16/06/22@23:46:51.328+0200] P-031463 T-2694063936 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log
+[16/06/23@18:24:58.971+0200] P-011814 T-1268692800 1 CGI  ------- Error 2 opening file /usr/wrk/msgr.log

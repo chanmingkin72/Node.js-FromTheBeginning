@@ -1,5 +1,7 @@
 var config      = require('./config.json'),
 
+    co          = require('co'),
+
     express     = require('express'),
     app         = express(),
     
@@ -9,27 +11,38 @@ var config      = require('./config.json'),
     data        = {
         webspeed:       require('./app/webspeed.js'),
         scl:            require('./app/scl.js'),
-        jsdo:           require('./app/jsdo.js'),
-        akera:          require('./app/akera.js'),
-        node4progress:  require('./app/node4progress.js')
+        jsdo:           require('./app/jsdo.js'), 
+        akera:          require('./app/akera.js')
+//        node4progress:  require('./app/node4progress.js') 
     },
-    
-    debug       = require("debug");
+ 
+    log         = require("debug")('app:main');
     
 app.use( express.static( '../client' ) );
 app.use( express.static( '../../static' ) );
 
 app.get( '/data/:type/:table', function( req, res ) {
 
-    data[ req.params.type ].get( { params: req.params, query: req.query }, function( err, data ) {
-        if (err)
-            return res.status( 502 ).send( err );
+    co( function*() {
+        
+        log( 'data', req.params.type );
+
+        // get data
+        let result   = yield *data[ req.params.type ].get( { params: req.params, query: req.query } );
 
         // check if we can convert table
         if (req.query.result)
-            data    = data && data[ req.query.result ];
+            result    = result && result[ req.query.result ];
 
-        return res.json( data );
+        return result;
+    })
+    .then( function( data ) {
+        // send data
+        res.json( data );
+    })
+    .catch( function(err) {
+        console.error( err );
+        res.status( 502 ).send( err );
     });
 });
 
@@ -54,3 +67,5 @@ io.on( 'connection', function(socket) {
     })
 
 });
+
+log( "app started" );

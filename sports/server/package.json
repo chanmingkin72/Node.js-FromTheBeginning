@@ -8,8 +8,9 @@
   },
   "homepage": "http://www.web4biz.eu",
   "dependencies": {
-    "akera-api": "^1.0.3",
+    "akera-api": "^1.0.15",
     "async": "^1.4.2",
+    "co": "^4.6.0",
     "debug": "^2.2.0",
     "express": "^4.13.3",
     "mongoose": "^4.1.12",

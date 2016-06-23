@@ -102,10 +102,10 @@ var socket  	= io();
                 {
                     name:       "akera",
                     title:      "Akera.io"
-                },
-                {
-                    name:       "n4p",
-                    title:      "node4progress"
+                // },
+                // {
+                //     name:       "n4p",
+                //     title:      "node4progress"
                 }
             ];
 

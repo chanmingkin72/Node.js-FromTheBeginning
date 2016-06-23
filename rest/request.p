@@ -17,6 +17,8 @@ DEFINE TEMP-TABLE ttCust NO-UNDO LIKE Customer.
 
 {src/web/method/cgidefs.i}
 
+LOG-MANAGER:WRITE-MESSAGE( "Request" ).
+
 output-content-type("application/json":U).
 
 IF NOT WEB-CONTEXT:IS-JSON THEN DO:
