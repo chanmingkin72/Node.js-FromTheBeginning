@@ -1,0 +1,7 @@
+GET /oecall?text=Hello%20World&title=PUG HTTP/1.1
+Host: sports.demo.node4biz.com
+Connection: close
+Cookie: ?
+Accept: */*
+User-Agent: OpenEdge 11.5.0.0.1114 (UNIX; TTY64)
+

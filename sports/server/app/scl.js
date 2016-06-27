@@ -19,8 +19,6 @@ module.exports	= {
             // call service
             let data    = yield sclPost( client, msg );
             
-            log( data );
-            
             return data;
         } 
         catch(e) {

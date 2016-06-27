@@ -46,6 +46,13 @@ app.get( '/data/:type/:table', function( req, res ) {
     });
 });
 
+app.get( '/oecall', function( req, res ) {
+
+    log( 'oecall', req.query );
+ 
+    io.emit( 'oecall', { text: req.query.text } );
+});
+
 io.on( 'connection', function(socket) {
 
     function login ( name ) {

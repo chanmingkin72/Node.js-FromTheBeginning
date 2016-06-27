@@ -8,7 +8,8 @@ var socket  	= io();
 				"ui.bootstrap", 
 				"angular.filter", 
 				"ui.select",
-				"kendo.directives"
+				"kendo.directives",
+				"toastr"
 			]);
 
 	app
@@ -81,10 +82,11 @@ var socket  	= io();
 	
 	// ********************************************************************************
 	// Menu
-	.controller( "menuCtrl", [ "$scope", function( $scope ) {
+	.controller( "menuCtrl", [ "$scope", "toastr", function( $scope, toastr ) {
 		var log = debug("demo:menu");
 
         $scope.newItem      = false;
+        $scope.oecalls      = [];
 
         $scope.menu         = [
                 {
@@ -93,7 +95,7 @@ var socket  	= io();
                 },
                 {
                     name:       "scl",
-                    title:      "Smart Component Library"
+                    title:      "SmartComponent Library"
                 },
                 {
                     name:       "jsdo",
@@ -116,6 +118,13 @@ var socket  	= io();
             
             $scope.$state.go( elm.name );
         };
+        
+        socket.on( 'oecall', function( elm ) {
+            log( elm );
+
+            toastr.success( elm.text, elm.title || 'OE call' );
+
+        });
 	}])    
 	
     //*****************************************************************
@@ -132,7 +141,7 @@ var socket  	= io();
 	.controller( "sclCtrl", [ "$scope", function( $scope ) {
         var log             = debug("demo:wsCtrl");
 	
-	    $scope.title        = "Smart Component Library";
+	    $scope.title        = "SmartComponent Library";
         $scope.transport    = "/data/scl/customer?ds=dsCustomer&table=eCustomer";
 	}])
 

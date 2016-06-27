@@ -50,6 +50,10 @@
   <!-- Moment -->
   <script src="/moment/moment.min.js"></script>
 
+  <!--Angular Toast-->
+  <script src="https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js"></script>
+  <link rel="stylesheet" href="https://npmcdn.com/angular-toastr/dist/angular-toastr.css" />
+
   <!-- App -->
   <script src="/app/demo.js"></script>
   <link rel="stylesheet" href="/style.css">
@@ -67,11 +71,21 @@
   <div class="row content">
     
     <div class="col-xs-4 col-md-2 navTop">
+      <div>
       <ul class="nav nav-pills nav-stacked">
         <li role="presentation" class="menuItem" ng-repeat="menuItem in menu" ng-click="openMenu( menuItem )" ng-class="{ selected: menuItem.name == selected.name }">
           <div>{{ menuItem.title }}</div>
         </li>
       </ul>
+      </div>
+      
+      <div>
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="menuItem" ng-repeat="item in oecalls">
+          <div>{{ item.text }}</div>
+        </li>
+      </ul>
+      </div>
     </div>
     
     <div class="col-xs-8 col-md-10" ui-view></div>

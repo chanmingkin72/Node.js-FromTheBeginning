@@ -1,0 +1,6 @@
+HTTP/1.1 502 Bad Gateway
+Server: nginx/1.4.6 (Ubuntu)
+Date: Sun, 26 Jun 2016 21:35:56 GMT
+Content-Type: text/html
+Content-Length: 181
+Connection: close

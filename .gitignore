@@ -1,5 +1,6 @@
 .c9revisions/
 .c9/
+.node-xml*
 
 akera/*.log
 akera/sports.json
@@ -8,6 +9,13 @@ akera/akera.lic
 appserver/*.log
 
 rest/*.log
+rest/ABL.xml
+rest/build/
+rest/Consultingwerk/
+rest/DB/
+rest/OERA/
+rest/Setup/
+rest/src/
 
 express/config.json
 express/process.json

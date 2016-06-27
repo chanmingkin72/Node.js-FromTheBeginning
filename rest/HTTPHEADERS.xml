@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ttHttpResponces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ttHttpResponcesRow>
+    <FieldName>Content-Length</FieldName>
+    <FeildValues>181</FeildValues>
+  </ttHttpResponcesRow>
+  <ttHttpResponcesRow>
+    <FieldName>Content-Type</FieldName>
+    <FeildValues>text/html</FeildValues>
+  </ttHttpResponcesRow>
+  <ttHttpResponcesRow>
+    <FieldName>Date</FieldName>
+    <FeildValues>Sun, 26 Jun 2016 21:35:56 GMT</FeildValues>
+  </ttHttpResponcesRow>
+  <ttHttpResponcesRow>
+    <FieldName>Server</FieldName>
+    <FeildValues>nginx/1.4.6 (Ubuntu)</FeildValues>
+  </ttHttpResponcesRow>
+</ttHttpResponces>
