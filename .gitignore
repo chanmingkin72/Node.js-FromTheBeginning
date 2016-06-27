@@ -9,13 +9,7 @@ akera/akera.lic
 appserver/*.log
 
 rest/*.log
-rest/ABL.xml
-rest/build/
-rest/Consultingwerk/
-rest/DB/
-rest/OERA/
-rest/Setup/
-rest/src/
+rest/*.pf
 
 express/config.json
 express/process.json
